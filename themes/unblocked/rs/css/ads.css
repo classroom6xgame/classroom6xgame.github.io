@@ -96,3 +96,30 @@
         max-width: 970px
     }
 }
+
+.ads-home-top {
+    width: 300px;
+    max-width: 300px
+}
+
+/* fix */
+@media (min-width:760px) {
+    .ads-home-top {
+        width: 728px;
+        max-width: 728px
+    }
+}
+
+@media (min-width:1440px) {
+    .ads-home-top {
+        width: 768px;
+        max-width: 768px
+    }
+}
+
+@media (min-width:1642px) {
+    .ads-home-top {
+        width: 970px;
+        max-width: 970px
+    }
+}
